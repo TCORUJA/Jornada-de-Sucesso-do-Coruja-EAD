@@ -1,0 +1,73 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+	background:url(img/background/Background.png) repeat-x fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  /* background-color: #f7f7f7; */
+  font-family: Arial, Helvetica, sans-serif;
+  word-wrap: break-word;
+}
+input, textarea{
+  border: solid 1px #00000000;
+  border-radius: 5px;
+}
+
+
+
+.conteudoTopo{
+  width: 100vw;
+  margin: 0 auto;
+  padding: 10px 25px;
+	background:url(img/background/BackgroundTopo2.png);
+  /* background-color: #FF7514; */
+  background-size: cover;
+  background-position: center;
+}
+.nomeTopo{
+  font-size: 32px;
+  text-align: center;
+  padding: 6px 0 6px 0;
+  font-weight: bolder;
+}
+
+.informacoes{
+  width: 990px;/* 
+  height: 1350px; */
+  margin: 20px auto;
+  padding: 20px 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 15px;
+}
+
+
+
+.quadrados{
+  display: grid;
+  grid-template-columns: 190px 190px 190px 190px 190px;
+  grid-template-rows: 160px 160px 160px 160px 160px;
+}
+.quadrado{
+  border: 1px solid #000000;
+  width: 190px;
+  height: 160px;
+  margin: 10px;
+  padding: 3px;
+  text-align: center;
+  display:flex;
+}
+#quadrado06, #quadrado07, #quadrado08, #quadrado09, #quadrado17, #quadrado18, #quadrado19, #quadrado20{
+  border: 1px solid #00000000;
+}
+
+.texto{
+  margin: auto;
+  font-size: 13px;
+}
+.nomeTexto{
+  margin: 20px;
+}
