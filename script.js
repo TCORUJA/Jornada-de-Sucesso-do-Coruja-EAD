@@ -53,111 +53,112 @@ var gravacao10 = "";
 
 /* quadrados */
 
-if(aoVivo01 == "" & gravacao01 == ""){
-    document.getElementById("texto02").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo01 == "" & gravacao01 == "" & nome01 == "" & data01 == ""){
+    document.getElementById("quadrado02").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>timer</div> <div class='descricaoTexto'>FASE 01</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao01 != ""){
-    document.getElementById("texto02").innerHTML = data01 + "<br><br>" + nome01 + "<br><br><a target='_blank' href='" + gravacao01 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado02").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>timer</div> <div class='descricaoTexto'>FASE 01</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data01 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao01 + "'>" + nome01 + "</a></p></div></div>";
 }
 else if(aoVivo01 != ""){
-    document.getElementById("texto02").innerHTML = data01 + "<br><br>" + nome01 + "<br><br><a target='_blank' href='" + aoVivo01 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado02").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>timer</div> <div class='descricaoTexto'>FASE 01</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data01 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo01 + "'>" + nome01 + "</a></p></div></div>";
 }
 
 
-if(aoVivo02 == "" & gravacao02 == ""){
-    document.getElementById("texto04").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo02 == "" & gravacao02 == "" & nome02 == "" & data02 == ""){
+    document.getElementById("quadrado04").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>book</div> <div class='descricaoTexto'>FASE 02</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao02 != ""){
-    document.getElementById("texto04").innerHTML = data02 + "<br><br>" + nome02 + "<br><br><a target='_blank' href='" + gravacao02 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado04").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>book</div> <div class='descricaoTexto'>FASE 02</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data02 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao02 + "'>" + nome02 + "</a></p></div></div>";
 }
 else if(aoVivo02 != ""){
-    document.getElementById("texto04").innerHTML = data02 + "<br><br>" + nome02 + "<br><br><a target='_blank' href='" + aoVivo02 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado04").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>book</div> <div class='descricaoTexto'>FASE 02</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data02 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo02 + "'>" + nome02 + "</a></p></div></div>";
 }
 
 
-if(aoVivo03 == "" & gravacao03 == ""){
-    document.getElementById("texto10").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo03 == "" & gravacao03 == "" & nome03 == "" & data03 == ""){
+    document.getElementById("quadrado06").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>neurology</div> <div class='descricaoTexto'>FASE 03</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao03 != ""){
-    document.getElementById("texto10").innerHTML = data03 + "<br><br>" + nome03 + "<br><br><a target='_blank' href='" + gravacao03 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado06").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>neurology</div> <div class='descricaoTexto'>FASE 03</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data03 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao03 + "'>" + nome03 + "</a></p></div></div>";
 }
 else if(aoVivo03 != ""){
-    document.getElementById("texto10").innerHTML = data03 + "<br><br>" + nome03 + "<br><br><a target='_blank' href='" + aoVivo03 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado06").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>neurology</div> <div class='descricaoTexto'>FASE 03</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data03 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo03 + "'>" + nome03 + "</a></p></div></div>";
 }
 
 
-if(aoVivo04 == "" & gravacao04 == ""){
-    document.getElementById("texto15").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo04 == "" & gravacao04 == "" & nome04 == "" & data04 == ""){
+    document.getElementById("quadrado12").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>computer</div> <div class='descricaoTexto'>FASE 04</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao04 != ""){
-    document.getElementById("texto15").innerHTML = data04 + "<br><br>" + nome04 + "<br><br><a target='_blank' href='" + gravacao04 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado12").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>computer</div> <div class='descricaoTexto'>FASE 04</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data04 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao04 + "'>" + nome04 + "</a></p></div></div>";
 }
 else if(aoVivo04 != ""){
-    document.getElementById("texto15").innerHTML = data04 + "<br><br>" + nome04 + "<br><br><a target='_blank' href='" + aoVivo04 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado12").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>computer</div> <div class='descricaoTexto'>FASE 04</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data04 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo04 + "'>" + nome04 + "</a></p></div></div>";
 }
 
 
-if(aoVivo05 == "" & gravacao05 == ""){
-    document.getElementById("texto13").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo05 == "" & gravacao05 == "" & nome05 == "" & data05 == ""){
+    document.getElementById("quadrado16").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>book</div> <div class='descricaoTexto'>FASE 05</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao05 != ""){
-    document.getElementById("texto13").innerHTML = data05 + "<br><br>" + nome05 + "<br><br><a target='_blank' href='" + gravacao05 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado16").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>book</div> <div class='descricaoTexto'>FASE 05</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data05 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao05 + "'>" + nome05 + "</a></p></div></div>";
 }
 else if(aoVivo05 != ""){
-    document.getElementById("texto13").innerHTML = data05 + "<br><br>" + nome05 + "<br><br><a target='_blank' href='" + aoVivo05 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado16").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>book</div> <div class='descricaoTexto'>FASE 05</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data05 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo05 + "'>" + nome05 + "</a></p></div></div>";
 }
 
 
-if(aoVivo06 == "" & gravacao06 == ""){
-    document.getElementById("texto12").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo06 == "" & gravacao06 == "" & nome06 == "" & data06 == ""){
+    document.getElementById("quadrado15").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>engineering</div> <div class='descricaoTexto'>FASE 06</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao06 != ""){
-    document.getElementById("texto12").innerHTML = data06 + "<br><br>" + nome06 + "<br><br><a target='_blank' href='" + gravacao06 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado15").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>engineering</div> <div class='descricaoTexto'>FASE 06</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data06 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao06 + "'>" + nome06 + "</a></p></div></div>";
 }
 else if(aoVivo06 != ""){
-    document.getElementById("texto12").innerHTML = data06 + "<br><br>" + nome06 + "<br><br><a target='_blank' href='" + aoVivo06 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado15").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>engineering</div> <div class='descricaoTexto'>FASE 06</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data06 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo06 + "'>" + nome06 + "</a></p></div></div>";
 }
 
 
-if(aoVivo07 == "" & gravacao07 == ""){
-    document.getElementById("texto16").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo07 == "" & gravacao07 == "" & nome07 == "" & data07 == ""){
+    document.getElementById("quadrado13").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 07</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao07 != ""){
-    document.getElementById("texto16").innerHTML = data07 + "<br><br>" + nome07 + "<br><br><a target='_blank' href='" + gravacao07 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado13").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 07</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data07 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao07 + "'>" + nome07 + "</a></p></div></div>";
 }
 else if(aoVivo07 != ""){
-    document.getElementById("texto16").innerHTML = data07 + "<br><br>" + nome07 + "<br><br><a target='_blank' href='" + aoVivo07 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado13").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 07</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data07 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo07 + "'>" + nome07 + "</a></p></div></div>";
 }
 
 
-if(aoVivo08 == "" & gravacao08 == ""){
-    document.getElementById("texto21").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo08 == "" & gravacao08 == "" & nome08 == "" & data08 == ""){
+    document.getElementById("quadrado25").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 08</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao08 != ""){
-    document.getElementById("texto21").innerHTML = data08 + "<br><br>" + nome08 + "<br><br><a target='_blank' href='" + gravacao08 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado25").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 08</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data08 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao08 + "'>" + nome08 + "</a></p></div></div>";
 }
 else if(aoVivo08 != ""){
-    document.getElementById("texto21").innerHTML = data08 + "<br><br>" + nome08 + "<br><br><a target='_blank' href='" + aoVivo08 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado25").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 08</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data08 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo08 + "'>" + nome08 + "</a></p></div></div>";
 }
 
 
-if(aoVivo09 == "" & gravacao09 == ""){
-    document.getElementById("texto23").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo09 == "" & gravacao09 == "" & nome09 == "" & data09 == ""){
+    document.getElementById("quadrado27").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 09</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao09 != ""){
-    document.getElementById("texto23").innerHTML = data09 + "<br><br>" + nome09 + "<br><br><a target='_blank' href='" + gravacao09 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado27").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 09</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data09 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao09 + "'>" + nome09 + "</a></p></div></div>";
 }
 else if(aoVivo09 != ""){
-    document.getElementById("texto23").innerHTML = data09 + "<br><br>" + nome09 + "<br><br><a target='_blank' href='" + aoVivo09 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado27").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 09</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data09 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo09 + "'>" + nome09 + "</a></p></div></div>";
 }
 
 
-if(aoVivo10 == "" & gravacao10 == ""){
-    document.getElementById("texto24").innerHTML = "Aguarde o desbloqueio dessa fase!";
+if(aoVivo10 == "" & gravacao10 == "" & nome10 == "" & data10 == ""){
+    document.getElementById("quadrado29").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 10</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto'>Aguarde o desbloqueio dessa fase!</p></div></div>";
 }
 else if(gravacao10 != ""){
-    document.getElementById("texto24").innerHTML = data10 + "<br><br>" + nome10 + "<br><br><a target='_blank' href='" + gravacao10 + "'>Acessar Gravação</a>";
+    document.getElementById("quadrado29").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 10</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data10 + "</p><p class='pTexto3'><b>GRAVAÇÃO:</b> <a target='_blank' href='" + gravacao10 + "'>" + nome10 + "</a></p></div></div>";
 }
 else if(aoVivo10 != ""){
-    document.getElementById("texto24").innerHTML = data10 + "<br><br>" + nome10 + "<br><br><a target='_blank' href='" + aoVivo10 + "'>Acessar Webconferência</a>";
+    document.getElementById("quadrado29").innerHTML = "<div class='divTexto1'><div class='pTexto pTexto1'><div class='material-symbols-outlined imgTexto'>cached</div> <div class='descricaoTexto'>FASE 10</div></div></div><div class='divTexto2'><div class='divNomeTexto'><p class='pTexto pTexto2'><b>DATA:</b> " + data10 + "</p><p class='pTexto3'><b>AO VIVO:</b> <a target='_blank' href='" + aoVivo10 + "'>" + nome10 + "</a></p></div></div>";
 }
+
