@@ -3,12 +3,12 @@
 var nome01 = "Organização e gestão do tempo";
 var data01 = "31/01/2023";
 var aoVivo01 = "https://us06web.zoom.us/j/85814983939";
-var gravacao01 = "";
+var gravacao01 = "https://youtu.be/KgWjNtx5kHw";
 
 var nome02 = "Como fugir do plágio e dicas da ABNT";
 var data02 = "02/02/2023";
 var aoVivo02 = "https://us06web.zoom.us/j/81520404900";
-var gravacao02 = "";
+var gravacao02 = "https://youtu.be/DUlbOW3wcBg";
 
 var nome03 = "Inteligência Emocional";
 var data03 = "07/02/2023";
