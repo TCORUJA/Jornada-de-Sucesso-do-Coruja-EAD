@@ -3,7 +3,7 @@
   margin: 0;
 }
 body{
-	background:url(img/background/Background.png) repeat-x fixed;
+	background:url(img/background/Background.jpg) repeat-x fixed;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
@@ -42,14 +42,15 @@ input, textarea{
   display: grid;
   grid-template-columns: 1fr;
   border-radius: 15px;
+  background-color: #ffffff9b;
 }
 
 
 
 .quadrados{
   display: grid;
-  grid-template-columns: 191px 191px 191px 191px 191px 191px;
-  grid-template-rows: 161px 161px 161px 161px 161px;
+  grid-template-columns: 190px 190px 190px 190px 190px 190px;
+  grid-template-rows: 160px 160px 160px 160px 160px;
   color: #ffffff;
 }
 .quadrado{
@@ -59,10 +60,8 @@ input, textarea{
   padding: 4px;
   display: table;
   text-align: center;
-  background-color: #ef7b0099;
-}
-#quadrado01{
-  background-color: #04aa6d99;
+  background-color: #ffffff99;
+  border: 1px solid #000000;
 }
 #quadrado30{
   background-color: #aa040499;
@@ -112,4 +111,90 @@ input, textarea{
 .descricaoTexto{
   font-weight: bold;
   padding-left: 5px;
+}
+.link{
+  color: #ffffff;
+  text-decoration: underline;
+}
+.link:hover{
+  color: #EF7D00;
+  -webkit-text-decoration-color: #EA5A33; /* Safari */  
+  text-decoration-color: #EA5A33;
+}
+.link:active{
+  color: #EA5A33;
+}
+
+
+.inicio{
+	background:url(img/backgroundCards/inicio.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fim{
+	background:url(img/backgroundCards/fim.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bloqueado{
+	background:url(img/backgroundCards/bloqueado.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.avancoEsquerda{
+	background:url(img/backgroundCards/avancoEsquerda.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.avancoDireita{
+	background:url(img/backgroundCards/avancoDireita.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.avancoBaixo{
+	background:url(img/backgroundCards/avancoBaixo.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tempo{
+	background:url(img/backgroundCards/tempo.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ABNT{
+	background:url(img/backgroundCards/ABNT.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.emocional{
+	background:url(img/backgroundCards/emocional.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.industria{
+	background:url(img/backgroundCards/industria.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.estudo{
+	background:url(img/backgroundCards/estudo.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.carreira{
+	background:url(img/backgroundCards/carreira.png) repeat-x fixed;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
