@@ -3,7 +3,7 @@
   margin: 0;
 }
 body{
-	background:url(img/background/Background.jpg) repeat-x fixed;
+	background:url(img/background/Background1.jpg) repeat-x fixed;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
@@ -49,8 +49,8 @@ input, textarea{
 
 .quadrados{
   display: grid;
-  grid-template-columns: 190px 190px 190px 190px 190px 190px;
-  grid-template-rows: 160px 160px 160px 160px 160px;
+  grid-template-columns: 191px 191px 191px 191px 191px 191px;
+  grid-template-rows: 161px 161px 161px 161px 161px;
   color: #ffffff;
 }
 .quadrado{
@@ -61,7 +61,7 @@ input, textarea{
   display: table;
   text-align: center;
   background-color: #ffffff99;
-  border: 1px solid #000000;
+  border: 1px solid #EF7D00;
 }
 #quadrado30{
   background-color: #aa040499;
