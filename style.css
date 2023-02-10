@@ -35,14 +35,19 @@ input, textarea{
 }
 
 .informacoes{
-  width: 1181px;/* 
+  max-width: 1181px;/* 
   height: 1350px; */
   margin: 20px auto;
   padding: 20px 10px;
-  display: grid;
-  grid-template-columns: 1fr;
   border-radius: 15px;
   background-color: #ffffff9b;
+}
+@media only screen and (max-width: 1181px){
+  .informacoes{
+    min-width: 100%;
+    display: block;
+    overflow-x: scroll;
+  }
 }
 
 
@@ -57,11 +62,10 @@ input, textarea{
   width: 190px;
   height: 160px;
   margin: 10px;
-  padding: 4px;
+  padding: 10px 11px;
   display: table;
   text-align: center;
   background-color: #ffffff99;
-  border: 1px solid #EF7D00;
 }
 #quadrado30{
   background-color: #aa040499;
@@ -75,7 +79,7 @@ input, textarea{
   display: flex;
 }
 .divTexto2{
-  padding-top: 20px;
+  padding-top: 16px;
 }
 .divTexto4{
   text-align: center;
@@ -88,19 +92,16 @@ input, textarea{
   background-color: #00000000;
 }
 
-.imgTexto{
-  border-left: solid 3px #F5C200;
-  padding-left: 5px;
-}
 .pTexto2, .pTexto3{
-  padding: 3px;
+  padding: 4px 1px;
   margin: auto;
-  font-size: 13px;
+  font-size: 15px;
   text-align: left;
 }
 .pTexto1{
   margin: auto;
   display: flex;
+  font-size: 18px;
 }
 .pTexto4{
   display: inline-flex;
@@ -117,83 +118,65 @@ input, textarea{
   text-decoration: underline;
 }
 .link:hover{
-  color: #EF7D00;
-  -webkit-text-decoration-color: #EA5A33; /* Safari */  
-  text-decoration-color: #EA5A33;
+  color: #004070;
+  -webkit-text-decoration-color: #004070; /* Safari */  
+  text-decoration-color: #004070;
 }
 .link:active{
-  color: #EA5A33;
+  color: #004070;
 }
 
 
 .inicio{
-	background:url(img/backgroundCards/inicio.png) repeat-x fixed;
+	background:url(img/backgroundCards/EAD---JORNADA-DE-SUCESSO-INÍCIO.png) repeat-x fixed;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 .fim{
-	background:url(img/backgroundCards/fim.png) repeat-x fixed;
+	background:url(img/backgroundCards/EAD---JORNADA-DE-SUCESSO-FIM.png) repeat-x fixed;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
 .bloqueado{
-	background:url(img/backgroundCards/bloqueado.png) repeat-x fixed;
+	background:url(img/backgroundCards/EAD---JORNADA-DE-SUCESSO-DESBLOQUEIO.png) repeat-x fixed;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-.avancoEsquerda{
-	background:url(img/backgroundCards/avancoEsquerda.png) repeat-x fixed;
+.avancoEsquerda1{
+	background:url(img/backgroundCards/EAD---JORNADA-DE-SUCESSO-AVANCE-ESQUERDA-1-CASA.png) repeat-x fixed;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-.avancoDireita{
-	background:url(img/backgroundCards/avancoDireita.png) repeat-x fixed;
+.avancoEsquerda2{
+	background:url(img/backgroundCards/EAD---JORNADA-DE-SUCESSO-AVANCE-ESQUERDA-2-CASAS.png) repeat-x fixed;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-.avancoBaixo{
-	background:url(img/backgroundCards/avancoBaixo.png) repeat-x fixed;
+.avancoDireita1{
+	background:url(img/backgroundCards/EAD---JORNADA-DE-SUCESSO-AVANCE-DIREITA-1-CASAS.png) repeat-x fixed;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-.tempo{
-	background:url(img/backgroundCards/tempo.png) repeat-x fixed;
+.avancoDireita2{
+	background:url(img/backgroundCards/EAD---JORNADA-DE-SUCESSO-AVANCE-DIREITA-2-CASAS.png) repeat-x fixed;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-.ABNT{
-	background:url(img/backgroundCards/ABNT.png) repeat-x fixed;
+.avancoBaixo1{
+	background:url(img/backgroundCards/EAD---JORNADA-DE-SUCESSO-AVANCE-1-CASA-BAIXO.png) repeat-x fixed;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
-.emocional{
-	background:url(img/backgroundCards/emocional.png) repeat-x fixed;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.industria{
-	background:url(img/backgroundCards/industria.png) repeat-x fixed;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.estudo{
-	background:url(img/backgroundCards/estudo.png) repeat-x fixed;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.carreira{
-	background:url(img/backgroundCards/carreira.png) repeat-x fixed;
+.fase{
+	background:url(img/backgroundCards/EAD---JORNADA-DE-SUCESSO-FASE.png) repeat-x fixed;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
