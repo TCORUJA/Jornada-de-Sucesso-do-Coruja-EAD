@@ -3,7 +3,7 @@
   margin: 0;
 }
 body{
-	background:url(img/background/Background1.jpg) repeat-x fixed;
+	background:url(img/background/Background.png) repeat-x fixed;
   background-repeat: no-repeat;
   background-size: cover;
   overflow-x: hidden;
@@ -40,7 +40,7 @@ input, textarea{
   margin: 20px auto;
   padding: 20px 10px;
   border-radius: 15px;
-  background-color: #ffffff9b;
+  /* background-color: #ffffff9b; */
 }
 @media only screen and (max-width: 1181px){
   .informacoes{
